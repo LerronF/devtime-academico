@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pedidos"
+            android:icon="@drawable/ic_add_shopping_cart_black_48dp"
+            android:title="Pedidos" />
+        <item
+            android:id="@+id/nav_produtos"
+            android:icon="@drawable/ic_inbox_black_24dp"
+            android:title="Produtos" />
+        <item
+            android:id="@+id/nav_clientes"
+            android:icon="@drawable/ic_account_circle_black_48dp"
+            android:title="Clientes" />
+        <item
+            android:id="@+id/nav_delivery"
+            android:icon="@drawable/ic_desktop_windows_black_24dp"
+            android:title="Monitor de Preparo" />
+    </group>
+
+    <item android:title="Ferramentas">
+        <menu>
+            <item
+                android:id="@+id/nav_Verifica"
+                android:icon="@drawable/ic_compare_arrows_black_48dp"
+                android:title="Verifica Serviço" />
+        </menu>
+    </item>
+
+    <item android:title="Configurações">
+        <menu>
+            <item
+                android:id="@+id/nav_relatorios"
+                android:icon="@drawable/ic_equalizer_black_48dp"
+                android:title="Relatórios" />
+
+            <item
+                android:id="@+id/nav_ajuda"
+                android:icon="@drawable/ic_help_black_48dp"
+                android:title="Ajuda" />
+        </menu>
+    </item>
+
+</menu>

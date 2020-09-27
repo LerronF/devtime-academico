@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="2dp"
+    android:background="#fffffe"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:weightSum="5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/txtData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#bcbcbc"
+            android:text="Data"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtQtd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#d78884"
+            android:text="Quantidade"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtQtdD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Recebido                     Isento"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtQtdRecebimento"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:text="Recebimento"
+            android:textAlignment="center"
+            android:textColor="#000000"
+
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtQtdIsento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Isento"
+
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtValor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#a1d7a6"
+            android:text="Valor"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

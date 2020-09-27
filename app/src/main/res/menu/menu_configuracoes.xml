@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_salvar_alteracoes"
+        android:orderInCategory="100"
+        android:title="@string/action_salvar_alteracoes"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action__excluir_alteracoes"
+        android:orderInCategory="100"
+        android:title="@string/action_excluir_alteracoes"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_testar_conexao"
+        android:orderInCategory="100"
+        android:title="@string/action_testar_conexao"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_testar_conexao_remota"
+        android:orderInCategory="100"
+        android:title="@string/action_testar_conexao_remota"
+        app:showAsAction="never" />
+
+</menu>
