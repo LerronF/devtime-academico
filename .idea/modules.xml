@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Academico.iml" filepath="$PROJECT_DIR$/.idea/modules/Academico.iml" group="Academico" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Academico-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Academico-app.iml" group="Academico/app" />
       <module fileurl="file://$PROJECT_DIR$/DevTimeAcademico.iml" filepath="$PROJECT_DIR$/DevTimeAcademico.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
